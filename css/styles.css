@@ -1,0 +1,98 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	position: relative;
+}
+
+.header {
+	background: url('../img/alr.jpg') no-repeat center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#scrollUp {
+    background-image: url("../img/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;
+    height: 38px;
+}
+
+
+.alr {
+  width: 320px;
+  	height: 320px;
+  	position: fixed;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  	z-index: 0;
+
+}
+
+
+.bar {
+	color: #fff;
+	width: 100%;
+	height: 5em;
+	position: fixed;
+	top: 0;
+	left: auto;
+  right: auto;
+	z-index: 2;
+	text-align: center;
+	display: none;
+}
+
+.about{
+	width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+
+}
+
+.menu {
+	position: absolute;
+	top: 0;
+	right: 1em;
+}
+.menu li {
+	display: inline-block;
+	line-height: 3em;
+}
+.menu li a {
+	font-size: 1em;
+	color: white;
+	text-decoration: none;
+}
+
+h1, h2, footer {
+  font-family: 'Sofia', cursive;
+}
+
+.contact, .about {
+	text-align: center;
+}
+
+.main {
+	width: 100%;
+	background-color: grey;
+	position: absolute;
+	top: 100%;
+	z-index: 1;
+}
+
+.footer {
+  background-color: grey;
+
+}
